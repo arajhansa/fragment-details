@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   tools:context=".ui.activity.MainActivity">
+
+  <Toolbar
+     android:id="@+id/mainToolbar"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/cold"
+  >
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginEnd="20dp"
+       android:orientation="horizontal"
+    >
+
+      <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/ic_outline_ac_unit_24"
+         android:background="@color/cold"
+      />
+
+      <TextView
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Profile"
+         android:gravity="center"
+         android:textColor="@color/winter"
+      />
+
+      <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:foregroundGravity="fill_horizontal"
+         android:src="@drawable/ic_outline_ac_unit_24"
+         android:background="@color/cold"
+      />
+
+    </LinearLayout>
+
+  </Toolbar>
+
+  <androidx.fragment.app.FragmentContainerView
+     android:id="@+id/mainFragmentContainer"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+  />
+
+  <androidx.fragment.app.FragmentContainerView
+     android:id="@+id/bottomNavContainer"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+  />
+
+</LinearLayout>

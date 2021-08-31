@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:padding="40dp"
+   android:orientation="vertical"
+>
+
+  <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+     android:layout_weight="1"
+  >
+
+    <TextView
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="wrap_content"
+       android:text="Street Address : "
+    />
+
+    <EditText
+       android:id="@+id/profileInputName"
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:layout_height="wrap_content"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:maxLength="40"
+    />
+
+  </LinearLayout>
+
+  <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+     android:layout_weight="1"
+  >
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Name : "
+    />
+
+    <EditText
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:maxLength="40"
+    />
+
+  </LinearLayout>
+
+  <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+     android:layout_weight="1"
+  >
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Name : "
+    />
+
+    <EditText
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:maxLength="40"
+    />
+
+  </LinearLayout>
+
+  <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+     android:layout_weight="1"
+  >
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Name : "
+    />
+
+    <EditText
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:maxLength="40"
+    />
+
+  </LinearLayout>
+
+  <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+     android:layout_weight="1"
+  >
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Name : "
+    />
+
+    <EditText
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:maxLength="40"
+    />
+
+  </LinearLayout>
+
+  <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+     android:layout_weight="1"
+  >
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Name : "
+    />
+
+    <EditText
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:maxLength="40"
+    />
+
+  </LinearLayout>
+
+  <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+     android:layout_weight="1"
+  >
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Name : "
+    />
+
+    <EditText
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:maxLength="40"
+    />
+
+  </LinearLayout>
+
+  <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+     android:layout_weight="1"
+  >
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Name : "
+    />
+
+    <EditText
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:inputType="textPassword"
+       android:maxLines="1"
+       android:maxLength="40"
+    />
+
+  </LinearLayout>
+
+  <Button
+     android:id="@+id/saveProfile"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Save"
+     android:layout_gravity="center"
+     android:background="@drawable/button_primary"
+  />
+
+</LinearLayout>
